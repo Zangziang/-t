@@ -1,8 +1,8 @@
 <?php
 	session_start();
-	if(!isset($_SESSION['dangnhap'])){
-		header('Location: index.php');
-	} 
+	// if(!isset($_SESSION['dangnhap'])){
+	// 	include ('Location: index.php');
+	// } 
 	if(isset($_GET['login'])){
  	$dangxuat = $_GET['login'];
 	 }else{
@@ -10,7 +10,7 @@
 	 }
 	 if($dangxuat=='dangxuat'){
 	 	session_destroy();
-	 	header('Location: index.php');
+	 	header ('Location: index.php');
 	 }
 ?>
 
@@ -22,7 +22,8 @@
 	<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
-	<p>Xin chào : <?php echo $_SESSION['dangnhap'] ?> <a href="?login=dangxuat">Đăng xuất</a></p>
+	<p>Xin chào : 
+	<a href="?login=dangxuat">Đăng xuất</a></p>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  <div class="collapse navbar-collapse" id="navbarNav">
 	    <ul class="navbar-nav">

@@ -61,7 +61,7 @@
 					}
 						?>
 						<li class="text-center border-right text-white">
-							<i class="fas fa-phone mr-2"></i> 0909999999
+							<i class="fas fa-phone mr-2"></i> 0868019214
 						</li>
 						<li class="text-center border-right text-white">
 							<a href="#" data-toggle="modal" data-target="#dangnhap" class="text-white">

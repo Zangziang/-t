@@ -46,7 +46,7 @@
 
 <body>
 	<?php
-	include('include/topbar.php'); 
+	include('include/taikhoan.php'); 
 	include('include/menu.php');
 	include('include/slider.php');
 
